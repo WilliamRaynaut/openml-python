@@ -72,8 +72,8 @@ def list_flows(offset=None, size=None, tag=None):
 def flow_exists(name, external_version):
     """Retrieves the flow id of the flow uniquely identified by name + external_version.
 
-    Parameter
-    ---------
+    Parameters
+    ----------
     name : string
         Name of the flow
     version : string
